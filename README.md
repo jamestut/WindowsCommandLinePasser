@@ -17,6 +17,8 @@ The "program to launch" can be an absolute or relative. Relative names will be r
 
 The "command line arguments" should be specified as if it were typed in command prompt.
 
+**Only Windows GUI applications are supported. This program cannot be used to replace command line applications.**
+
 ## Example Configuration
 
 In this example, we will configure Chromium browser to reduce its memory usage by limiting the number of spawned renderer processes. We would also like to move the Chromium's cache to another directory. To perform this action, move this app to Chromium's install folder, rename the original `chromium.exe` to any other name (e.g. `chromium-original.exe`) and rename this app to `chromium.exe`. Then create `parampasscfg.txt` with the following content:
